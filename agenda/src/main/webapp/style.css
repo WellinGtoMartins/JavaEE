@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playpen+Sans:wght@500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-weight: 900;
+	font-size: 30px;
+	color: rgb(87, 183, 235);
+	padding: 0;
+	margin:0;
+}
+
+.navbar{
+	display: flex;
+	flex-flow: row wrap;
+	height: 100px;
+	background: #57b7eb;
+	justify-content: left;
+	align-items:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo{
+	text-align: left;
+	margin-left: 10%;
+	
+}
+
+.logo h1{
+	font-family: 'Lobster', sans-serif;
+	color: white;
+	font-size: 35px;
+}
+
+
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	padding-top: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 5px;
+	height: 500px;
+}
+
+.headline{
+	margin-left: 10%;
+	flex: 40%;
+}	
+
+
+.img-headline {
+	margin-right: 10%;
+	flex: 40%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.headline h2{
+	font-weight: 900;
+	font-size: 20px;
+	color: rgb(87, 183, 235);
+	padding: 0;
+	margin:0;
+}
+
+.botao{
+	display: inline-block;
+    font-weight: 900;
+	font-size: 15px;
+    background: rgb(87, 183, 235);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.botao2{
+	display: inline-block;
+    font-weight: 900;
+	font-size: 15px;
+    background: #d51213;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.caixa1{
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;	
+}
+
+.caixa2{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+#caixa3{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+#tabela {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+#tabela th{	
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background: #66bbff;
+	color: white;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+
+
+
+
+
